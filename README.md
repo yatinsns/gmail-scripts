@@ -7,7 +7,7 @@ To install all dependencies:
 
 Send email from your gmail account.
 __Subject__ should be passed as first parameter.
-__Body__ should be passed as second parameter or through pipe.
+__Body__ should be passed as second parameter or through standard input.
 
 Make sure, these environment variables are set before using this script.
 
@@ -20,3 +20,9 @@ Make sure, these environment variables are set before using this script.
 	$ ruby send-mail.rb 'Subject' 'Hello World'
 
 	$ echo "Hello World" | ruby send-mail.rb 'Subject'
+
+	$ ruby send-mail.rb 'Subject'
+	1
+	2
+	Ctrl-D
+
