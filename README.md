@@ -1,4 +1,7 @@
 
+To install all dependencies:
+	$ bundle install
+
 ### send-mail
 
 Send email from your gmail account.
