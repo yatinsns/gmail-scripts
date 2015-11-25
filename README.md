@@ -13,6 +13,6 @@ Make sure, these environment variables are set before using this script.
 
 ####Usage
 
-	$ ruby send-email.rb 'Subject' 'Hello World'
+	$ ruby send-mail.rb 'Subject' 'Hello World'
 
-	$ echo "Hello World" | ruby send-email.rb 'Subject'
+	$ echo "Hello World" | ruby send-mail.rb 'Subject'
