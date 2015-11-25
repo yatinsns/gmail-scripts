@@ -1,5 +1,6 @@
 
 To install all dependencies:
+
 	$ bundle install
 
 ### send-mail
