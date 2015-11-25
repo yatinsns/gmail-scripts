@@ -45,7 +45,8 @@ def get_subject
 end
 
 def get_body
-  ARGV[1] || STDIN.read
+  ARGV[1] = STDIN.read.chomp if ARGV[1].nil?
+  ARGV[1]
 end
 
 send_mail if __FILE__ == $0
